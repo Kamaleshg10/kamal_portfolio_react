@@ -1,5 +1,4 @@
 import React from 'react';
-// import video from '../assets/bg1.mp4'
 
 export const Slider = () => {
   return (
