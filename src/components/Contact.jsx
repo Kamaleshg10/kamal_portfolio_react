@@ -34,7 +34,7 @@ export const Contact = () => {
                     <input type="text" placeholder='Enter Name' className='form-control' />
                   </div>
                   <div className="form-group py-1">
-                    <input type="email" placeholder='Enter E-mail' className='form-control' />
+                    <input type="email" placeholder='Enter E-mail' className='form-control' required />
                   </div>
                   <div className="form-group py-1">
                     <textarea rows="3" placeholder=' Type your Message' className='form-control' ></textarea>

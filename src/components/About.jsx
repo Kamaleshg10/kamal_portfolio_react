@@ -24,7 +24,7 @@ export const About = () => {
 
       <section className='section bg-light border-bottom'>
         <div className="container">
-          <h5 className='main-heading'>Our Company</h5>
+          <h5 className='main-heading'>About Me</h5>
           <div className="underline"></div>
           <p> Hello, I am Kamalesh. I am a web developer . I build beautiful Websites with react and bootstrap <br/> <br/>
             I am fresher the tech industry . I am skilled to HTML, CSS, JS, BOOTSTRAP AND REACT and version control git/github  learninig to more
