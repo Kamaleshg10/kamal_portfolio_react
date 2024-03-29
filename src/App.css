@@ -32,6 +32,7 @@ a:hover{
 }
 .carousel-inner img{
     height: 60vh !important;
+    object-fit: cover;
 }
 .carousel-inner video{
     width: 100vw;

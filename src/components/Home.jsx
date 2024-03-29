@@ -1,8 +1,8 @@
 import React from 'react';
 import { Slider } from './Slider';
 import { Link } from 'react-router-dom';
-import { Vmc } from './Vmc';
-import { Service } from './Service';
+// import { Vmc } from './Vmc';
+// import { Service } from './Service';
 import { Navbar } from './Navbar';
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
