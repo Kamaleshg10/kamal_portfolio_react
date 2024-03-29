@@ -26,7 +26,10 @@ export const About = () => {
         <div className="container">
           <h5 className='main-heading'>Our Company</h5>
           <div className="underline"></div>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam placeat sapiente autem vita</p>
+          <p> Hello, I am Kamalesh. I am a web developer . I build beautiful Websites with react and bootstrap <br/> <br/>
+            I am fresher the tech industry . I am skilled to HTML, CSS, JS, BOOTSTRAP AND REACT and version control git/github  learninig to more
+
+          </p> 
         </div>
       </section>
     </>

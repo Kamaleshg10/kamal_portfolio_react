@@ -20,6 +20,9 @@ a{
     text-decoration: none !important;
     font-size: 20px;
 }
+a:hover{
+    color: var(--color4) !important;
+}
 .logo{
     color: var(--color8);
 }
@@ -30,12 +33,24 @@ a{
 .carousel-inner img{
     height: 60vh !important;
 }
+.carousel-inner video{
+    width: 100vw;
+    height: 70vh;
+    object-fit: cover;
+}
+.carousel-indicators{
+    color: var(--color1);
+}
 .section{
     padding-top:40px ;
     padding-bottom: 40px;
 }
 .main-heading{
     color:var(--color3) ;
+    font-size:26px ;
+}
+.sub-heading{
+    color:var(--color6) ;
     font-size:26px ;
 }
 .underline{
@@ -58,4 +73,11 @@ p{
 }
 .footer a:hover{
     color: var(--color4);
+}
+.footer .icon a{
+    margin-top: 50px !important;
+    cursor: pointer !important;
+}
+.footer a:hover{
+    color: var(--color8);
 }

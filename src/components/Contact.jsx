@@ -37,16 +37,16 @@ export const Contact = () => {
                     <input type="email" placeholder='Enter E-mail' className='form-control' />
                   </div>
                   <div className="form-group py-1">
-                    <textarea name="" id="" cols="30" rows="3" placeholder=' Enter Message' className='form-control' ></textarea>
+                    <textarea rows="3" placeholder=' Type your Message' className='form-control' ></textarea>
                   </div>                 
                   <div className="form-group py-3">
                     <button type="button"  className='btn btn-warning' >Send Message</button>
                   </div>                   
                 </div>
-                <div className="col-md-6 border-start">
+                {/* <div className="col-md-6 border-start">
                       <h5 className='main-heading'>Address Information</h5>
                       <div className="underline"></div>                    
-                  </div>
+                  </div> */}
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Vmc } from './Vmc';
 import { Service } from './Service';
 import { Navbar } from './Navbar';
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 export const Home = () => {
   return (
@@ -15,10 +16,12 @@ export const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                <h3 className="main-heading">Our Company</h3>
-                <div className="underline mx-auto"></div>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam placeat sapiente autem vitae deleniti blanditiis obcaecati explicabo ipsa illo, doloremque reprehenderit expedita dolores dolor deserunt porro velit quisquam ab provident!
+                {/* <h3 className="main-heading">Our Company</h3> */}
+                {/* <div className="underline mx-auto"></div> */}
+                <p className="main-heading fs-2 bold">
+                  Hello, hi I am kamalesh <br />
+                  I am a Web developer <br />
+                  I learn to more
                 </p>
                 <Link to='/about' className='btn btn-warning shadow' >Read More</Link>
               </div>
@@ -27,12 +30,10 @@ export const Home = () => {
         </section>
 
         {/* our vision mission  */}
-
-          <Vmc />
+          {/* <Vmc /> */}
 
           {/* our vision mission  */}
-
-          <Service />
+          {/* <Service /> */}
       </div>
 
       
