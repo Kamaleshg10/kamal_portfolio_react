@@ -12,7 +12,7 @@ import { FaYoutube } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
-        <section className="section pt-5 pb-4 bg-dark text-white footer" >
+        <section className="section pt-5 pb-4 text-white footer " >
           <div className="container">
             <div className="row">
               <div className="col-md-4 text-center icon my-3">
@@ -23,13 +23,15 @@ export const Footer = () => {
                 <Link to='http://www.linkedin.com'><FaLinkedin className='mx-3 fs-1' /></Link>         
                 <Link to='http://www.twitter.com'><FaSquareXTwitter className='mx-3 fs-1' /></Link>
               </div>
-               <div className="col-md-4 my-3 text-center">
-                    <h6>Quick links</h6>
+               <div className="col-md-4 my-3 ">
+                    <h6 className='text-center'>Quick links</h6>
                     <hr />
+                    <div className="quick">
                     <div><Link to='/'>Home</Link></div>
                     <div><Link to='/about'>About</Link></div>
                     <div><Link to='/contact'>Contact</Link></div>
                     <div><Link to='/skills'>Skills</Link></div>
+                    </div>
                </div>
                <div className="col-md-4 my-3 text-center">
                 <h6>Contact Information</h6>

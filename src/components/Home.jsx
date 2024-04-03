@@ -16,13 +16,13 @@ export const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
-                {/* <h3 className="main-heading">Our Company</h3> */}
-                {/* <div className="underline mx-auto"></div> */}
-                <p className="main-heading fs-2 bold">
-                  Hello, hi I am kamalesh <br />
-                  I am a Web developer <br />
-                  I learn to more
+              <p className="fw-bold banner-text">
+                  <span className='banner-main-text shad'>Hi, I'm kamalesh</span> <br />
+                  <span className='text-primary'>W</span><span className='shadow'>eb</span> - <span className='text-primary'>D</span><span className='shadow'>eveloper</span>
                 </p>
+                <p className="sub-para text-dark fw-normal m-4">Emphasize their ability to create responsive designs, collaborate with back-end developers, and utilize version control systems to improve website performance and user experience.</p>
+                {/* <div className="underline mx-auto"></div> */}
+                
                 <Link to='/about' className='btn btn-warning shadow' >Read More</Link>
               </div>
             </div>

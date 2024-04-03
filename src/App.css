@@ -16,6 +16,8 @@
     --color6:#f2f2f2;
     --color7:#262626;
     --color8:#17d106;
+    --color9:rgba(0,0,0,0.8);
+    --color10:#0000001a;
 }
 a{
     color: var(--color1) !important;
@@ -48,9 +50,18 @@ a:hover{
     padding-top:40px ;
     padding-bottom: 40px;
 }
+.banner-text{
+    font-size: 5rem;
+}
+.sub-para{
+    font-size: 22px;
+}
 .main-heading{
     color:var(--color3) ;
     font-size:26px ;
+}
+.banner-main-text{
+    text-shadow: 8px 2px #ff0000;
 }
 .sub-heading{
     color:var(--color6) ;
@@ -70,9 +81,13 @@ p{
     font-size: 14px;
     color: var(--color7);
 }
+.footer{
+    background-color:var(--color9) ;
+}
 .footer a{
     color: var(--color1);
     text-decoration: none;
+    text-align: start;
 }
 .footer a:hover{
     color: var(--color4);
@@ -83,4 +98,9 @@ p{
 }
 .footer a:hover{
     color: var(--color8);
+}
+.footer .quick{
+    display: flex;
+    flex-direction:column ;
+    padding:3rem ;
 }
