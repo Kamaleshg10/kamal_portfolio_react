@@ -12,10 +12,10 @@ import { FaYoutube } from "react-icons/fa";
 export const Footer = () => {
   return (
     <>
-        <section className="section pt-5 pb-4 text-white footer " >
+        <section className="section pt-3 pb-1 text-white footer " >
           <div className="container">
             <div className="row">
-              <div className="col-md-4 text-center icon my-3">
+              <div className="col-md-4 text-center icon my-2">
                 <h6>Other Informaton</h6>
                 <hr />       
                 <Link to='http://www.facebook.com' ><IoLogoFacebook className='mx-3 fs-1' /></Link>         
@@ -23,27 +23,27 @@ export const Footer = () => {
                 <Link to='http://www.linkedin.com'><FaLinkedin className='mx-3 fs-1' /></Link>         
                 <Link to='http://www.twitter.com'><FaSquareXTwitter className='mx-3 fs-1' /></Link>
               </div>
-               <div className="col-md-4 my-3 ">
+               <div className="col-md-4 my-2 ">
                     <h6 className='text-center'>Quick links</h6>
                     <hr />
-                    <div className="quick">
+                    <span className="quick">
                     <div><Link to='/'>Home</Link></div>
                     <div><Link to='/about'>About</Link></div>
                     <div><Link to='/contact'>Contact</Link></div>
                     <div><Link to='/skills'>Skills</Link></div>
-                    </div>
+                    </span>
                </div>
-               <div className="col-md-4 my-3 text-center">
+               <div className="col-md-4 my-2 text-center">
                 <h6>Contact Information</h6>
                 <hr />
-                <div><p className="text-white mb-1"><GrSend className='me-2' />kamaleshmech10@gmail.com</p></div>
+                <div><p className="text-white my-3"><GrSend className='me-2' />kamaleshmech10@gmail.com</p></div>
                 <div><p className="text-white mb-1"><IoMdCall className='me-2'/>+91 8883940989</p></div>
                </div>
             </div>
             <hr />
           </div>
-          <div className="col-12 my-3">
-                <h6 className='text-center'>&copy; Copyright 2024, kamalesh</h6>
+          <div className="col-12 ">
+                <h6 className='text-center'>&copy; Copyright 2024, kamalesh All Rights Reserved</h6>
           </div>
         </section>
     </>

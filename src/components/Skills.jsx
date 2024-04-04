@@ -41,14 +41,13 @@ export const Skills = () => {
                         <div><p className="text-white mb-1">HTML5</p></div>
                         <div><p className="text-white mb-1">CSS3</p></div>
                         <div><p className="text-white mb-1">JavaScript(Intermediate)</p></div>
-                        <div><p className="text-white mb-1">Python(begginer)</p></div>
                   </div>
                   <div className="col-md-4 ">
                   <h6 className='sub-heading'> Framework / Libraries</h6>
                   <div className="underline"></div>
                   {/* <hr /> */}
                         <div><p className="text-white mb-1">Bootstrap</p></div>
-                        <div><p className="text-white mb-1">React.js(begginer)</p></div>
+                        <div><p className="text-white mb-1">React.js(beginner)</p></div>
                   </div>
                   <div className="col-md-4 ">
                   <h6 className='sub-heading'>Tools</h6>

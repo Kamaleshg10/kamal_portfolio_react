@@ -102,5 +102,5 @@ p{
 .footer .quick{
     display: flex;
     flex-direction:column ;
-    padding:3rem ;
+    padding-left:8.5rem ;
 }
