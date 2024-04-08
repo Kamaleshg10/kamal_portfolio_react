@@ -40,7 +40,7 @@ a:hover{
 }
 .carousel-inner video{
     width: 100vw;
-    height: 70vh;
+    height: 90vh;
     object-fit: cover;
 }
 .carousel-indicators{
@@ -52,6 +52,17 @@ a:hover{
 }
 .banner-text{
     font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-banner-text{
+    font-size: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .sub-para{
     font-size: 22px;
@@ -61,7 +72,8 @@ a:hover{
     font-size:26px ;
 }
 .banner-main-text{
-    text-shadow: 8px 2px #ff0000;
+    /* text-shadow: 8px 2px #ff0000; */
+    text-shadow: 8px 2px #2f00ff;
 }
 .sub-heading{
     color:var(--color6) ;

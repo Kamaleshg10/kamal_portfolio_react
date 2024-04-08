@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 export const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 fs-5" data-bs-theme="dark">
+      {/* <nav classNameName="navbar bg-body-tertiary navbar-expand-lg py-3 fs-5  bg-trans"> */}
+      <nav className="navbar navbar-expand-lg p-2 fs-5 bg-dark">
         <div className="container">
-          <Link className="navbar-brand fw-bold" to="/"><span className="logo">K</span>AMAL</Link>
+          <Link className="navbar-brand fw-bold badge bg-light text-dark fs-5 " to="/"><span className="logo">K</span >AMAL</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
           </button>
@@ -20,7 +21,7 @@ export const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>    
+      </nav>          
     </>
   );
 };
