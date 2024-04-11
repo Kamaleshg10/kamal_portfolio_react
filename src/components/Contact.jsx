@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export const Contact = () => {
   return (
     <>
-      <section className="py-4 bg-info">
+      <section className="py-3 bg-info">
         <div className="container">
           <div className="row">
             <div className="col-md-4 my-auto">
@@ -15,6 +15,7 @@ export const Contact = () => {
               <Link to='/'>Home </Link> / 
                 <Link to='/about'> About</Link> /
                 <Link to='/skills'> Skills</Link> /
+                <Link to='/Portfolio'> Portfolio</Link> /
                 <Link to='/contact'> Contact</Link> 
               </h6>
             </div>

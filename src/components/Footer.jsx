@@ -22,14 +22,11 @@ export const Footer = () => {
                 <Link to='http://www.twitter.com'><FaSquareXTwitter className='mx-3 fs-1' /></Link>
               </div>
                <div className="col-md-4 my-2 ">
-                    <h6 className='text-center'>Quick links</h6>
+                    <h6 className='text-center'>Details</h6>
                     <hr />
-                    <span className="quick">
-                    <div><Link to='/'>Home</Link></div>
-                    <div><Link to='/about'>About</Link></div>
-                    <div><Link to='/contact'>Contact</Link></div>
-                    <div><Link to='/skills'>Skills</Link></div>
-                    </span>
+                    <div className="download  text-center">
+                        <a href="img/kamalesh g.pdf" download className="btn btn-primary">Download CV</a>
+                    </div>
                </div>
                <div className="col-md-4 my-2 text-center">
                 <h6>Contact Information</h6>

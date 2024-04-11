@@ -15,6 +15,7 @@ export const About = () => {
               <Link to='/'>Home </Link> / 
                 <Link to='/about'> About</Link> /
                 <Link to='/skills'> Skills</Link> /
+                <Link to='/Portfolio'> Portfolio</Link> /
                 <Link to='/contact'> Contact</Link>
               </h6>
             </div>

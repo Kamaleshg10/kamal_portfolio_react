@@ -16,7 +16,7 @@ export const Home = () => {
         <section className="section">
           <div className="container">
             <div className="row">
-              <div className="col-md-12 text-center">              
+              <div className="col-md-12 text-center col-xs-4">              
                 <p className="sub-para text-dark fw-normal m-4">Emphasize their ability to create responsive designs, collaborate with back-end developers, and utilize version control systems to improve website performance and user experience.</p>                
                 <Link to='/about' className='btn btn-warning shadow' >Read More</Link>
               </div>
