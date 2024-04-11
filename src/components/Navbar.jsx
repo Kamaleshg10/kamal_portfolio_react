@@ -8,8 +8,8 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-lg p-2 fs-5 bg-dark">
         <div className="container">
           <Link className="navbar-brand fw-bold badge bg-light bg-gradient text-primary fs-5 " to="/"><span className="logo text-secondary">K</span >AMAL</Link>
-          <button className="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon text-light"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse " id="navbarNavDropdown">
             <ul className="navbar-nav ms-auto ">

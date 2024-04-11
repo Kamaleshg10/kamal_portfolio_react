@@ -37,6 +37,9 @@ a:hover{
 .navbar-nav li a:hover{
     color: var(--color4);
 }
+.navbar button{
+    background-color: var(--color1);
+}
 .carousel-inner img{
     height: 60vh !important;
     object-fit: cover;
@@ -127,6 +130,6 @@ p{
     }
     .sub-banner-text{
         font-size: 2.5rem;        
-        padding-bottom: 8rem;
+        padding-bottom: 10rem;
     }
 }

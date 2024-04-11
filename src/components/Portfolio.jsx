@@ -16,7 +16,7 @@ export const Portfolio = () => {
                 <Link to='/about'> About</Link> /
                 <Link to='/skills'> Skills</Link> /
                 <Link to='/Portfolio'> Portfolio</Link> /
-                <Link to='/contact'> Contact</Link> /
+                <Link to='/contact'> Contact</Link> 
               </h6>
             </div>
           </div>
